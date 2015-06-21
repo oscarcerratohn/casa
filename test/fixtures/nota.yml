@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  asignatura: MyString
+  catedratico: MyString
+  nota: 1
+  observaciones: MyText
+
+two:
+  asignatura: MyString
+  catedratico: MyString
+  nota: 1
+  observaciones: MyText

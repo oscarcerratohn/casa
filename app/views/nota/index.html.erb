@@ -1,5 +1,5 @@
 <h1>Calificaciones</h1>
-<img src="index.png">
+<img src=index.png>
 <table>
   <tr>
     <th>Asignatura </th>
@@ -18,13 +18,13 @@
     <td><%= notum.catedratico %></td>
     <td><%= notum.nota %></td>
     <td><%= notum.observaciones %></td>
-    <td><%= link_to 'Show', notum %></td>
-    <td><%= link_to 'Edit', edit_notum_path(notum) %></td>
-    <td><%= link_to 'Destroy', notum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to 'Mostrar', notum %></td>
+    <td><%= link_to 'Editar', edit_notum_path(notum) %></td>
+    <td><%= link_to 'Destruir', notum, method: :delete, data: { confirm: '¿Estas seguro?' } %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New Notum', new_notum_path %>
+<%= link_to 'Nuevo Ingreso', new_notum_path %>
